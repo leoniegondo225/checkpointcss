@@ -46,11 +46,11 @@ body{
     margin-left: 20px;
 }
 .nav-link, .back{ /*avant de cliquer sur un mot dans la barre de nav*/
-    color: #2d0ebb;
+    color: #080808;
     font-size: 20px;
     text-decoration: none;
     margin-left: 20px;
-    transition: color 0.3s, font-size 0.3s;
+    transition: 0.3s;
     margin-right: 50px;
     font-weight: bold; /* Texte en gras */
     
@@ -59,7 +59,7 @@ body{
 .nav-link:hover, .active{ /*apres avoir cliquer sur un mot dans la barre de navigation*/
     color: #ff2391;
     font-size: 1.2rem;
-     transition:0.3s;
+    transition: color 0.3s, font-size 0.3s;
 }
 .hero{
     width: 100%;/*largeur de la baniere*/
